@@ -2,7 +2,7 @@
 // Created on 9/4/2024.
 //
 
-void __cdecl !_populate_graphics_modes(D3DDISPLAYMODE *param_1)
+void __cdecl _populate_graphics_modes(D3DDISPLAYMODE *param_1)
 
 {
 D3DDISPLAYMODE local_14;

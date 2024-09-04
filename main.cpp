@@ -1,6 +1,6 @@
 #include <iostream>
 
-undefined4 main(void)
+int main(void)
 
 {
   uint l_main_switch_ret_val;

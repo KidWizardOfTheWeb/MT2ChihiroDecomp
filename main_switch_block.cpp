@@ -1,7 +1,7 @@
 //
 // Created on 9/4/2024.
 //
-uint __cdecl !_main_switch_block(int param_1,void *param_2)
+uint __cdecl _main_switch_block(int param_1,void *param_2)
 
 {
     bool bVar1;
