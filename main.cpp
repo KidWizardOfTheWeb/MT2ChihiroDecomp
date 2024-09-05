@@ -1,22 +1,26 @@
 #include <iostream>
 
+// globals
+int g_width = 0;
+int g_height = 0;
+
 int main(void)
 
 {
-  uint l_main_switch_ret_val;
+  unsigned int l_main_switch_ret_val;
   int *piVar1;
   int iVar2;
-  DWORD LaunchDataType;
+  unsigned long int LaunchDataType;
   int local_c3c;
-  undefined4 becomes_param2_to_main_switch;
-  undefined4 local_c34;
-  undefined4 ll_width;
-  undefined4 ll_height;
+  unsigned int becomes_param2_to_main_switch; // undefined4 is assumed as int32 for the time being
+  unsigned int local_c34; // undefined4 is assumed as int32 for the time being
+  unsigned int ll_width; // undefined4 is assumed as int32 for the time being
+  unsigned int ll_height; // undefined4 is assumed as int32 for the time being
   D3DDISPLAYMODE l_displayMode;
-  undefined4 local_c10;
-  undefined4 local_c0c;
-  undefined4 local_c08;
-  undefined4 local_c04;
+  unsigned int local_c10; // undefined4 is assumed as int32 for the time being
+  unsigned int local_c0c; // undefined4 is assumed as int32 for the time being
+  unsigned int local_c08; // undefined4 is assumed as int32 for the time being
+  unsigned int local_c04; // undefined4 is assumed as int32 for the time being
   PLAUNCH_DATA LaunchData;
 
   !_populate_graphics_modes(&l_displayMode);
